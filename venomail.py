@@ -6,7 +6,7 @@ import time
 from toutatis import *
 import neverbounce_sdk
 from progress.bar import Bar
-api_key = 'private_db5f7a0af08b6b20238459c6d42ee0d9'
+api_key = 'YOUR NEVERBOUNCE API KEY'
 client = neverbounce_sdk.client(api_key=api_key, timeout=30)
 
 with open("tokens.txt") as tokens:
